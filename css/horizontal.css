@@ -1,0 +1,70 @@
+div.amazonpress
+, div.amazonpress h1
+, div.amazonpress h2
+, div.amazonpress h3
+, div.amazonpress h4
+, div.amazonpress h5
+, div.amazonpress h6
+, div.amazonpresswidget
+, div.amazonpresswidget h1
+, div.amazonpresswidget h2
+, div.amazonpresswidget h3
+, div.amazonpresswidget h4
+, div.amazonpresswidget h5
+, div.amazonpresswidget h6
+{
+	margin: 0;
+	padding: 0 0 6px 0;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+div.amazonpress div, div.amazonpresswidget div {
+	display: block;
+	text-indent: 0;
+	position: relative;
+	margin: 4px 0 6px 10px;
+	float: left;
+	font-size: 1em;
+	width: 80px;
+}
+div.amazonpresswidget div {
+	width: 100%;
+}
+
+div.amazonpress div a, div.amazonpresswidget div a {
+	position: relative;
+	margin: 0;
+	padding: 4px 10px 0px 0px;
+	text-decoration: none;
+	display: block;
+	clear: both;
+	width: 74px;
+}
+div.amazonpresswidget div a {
+	width: auto;
+}
+
+div.amazonpress div a img, div.amazonpresswidget div a img {
+	display: block;
+	position: relative;
+	margin: 0 10px 10px 0;
+
+}
+div.amazonpresswidget div a img {
+	float: left;
+	display: inline;
+}
+
+div.amazonpress div .amazonpress-product-title, div.amazonpresswidget div .amazonpress-product-title {
+	text-align: left;
+}
+
+.clear {
+	width: 100%;
+	
+}
+div.amazonpress div a.readmorelink, div.amazonpresswidget div a.readmorelink {
+	display: inline;
+}
